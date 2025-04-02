@@ -5,7 +5,7 @@ from gemini import generate_image_description
 import json
 import io
 
-bucket_name = "project2-bckt"
+bucket_name = os.environ.get("BUCKET_NAME")
 
 app = Flask(__name__)
 
