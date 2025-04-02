@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     index_html="""
-    <body style="background-color: blue; color: white">
+    <body style="background-color: Green; color: white">
 <form method="post" enctype="multipart/form-data" action="/upload" method="post">
   <div>
     <label for="file">Upload an image to generate the Title and Description using Gemini</label>
